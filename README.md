@@ -1,4 +1,3 @@
-
      ____   ____.__         __               .__  __      __      ___.    
      \   \ /   /|__|_______/  |_ __ _______  |  |/  \    /  \ ____\_ |__  
       \   Y   / |  \_  __ \   __\  |  \__  \ |  |\   \/\/   // __ \| __ \ 
@@ -7,15 +6,15 @@
                                            \/           \/       \/    \/ 
 
 
-  Pembuat			      : Jenuar Dwi Putra Dalapang
+  	Pembuat : Jenuar Dwi Putra Dalapang
 	
-	Nama Software		  : VirtualWeb
+	Nama Software : VirtualWeb
 
-	Jenis			        : CMS e-Learning
+	Jenis : CMS e-Learning
 
-	Lisensi			      : Open Source
+	Lisensi	: Open Source
 
-	Spesifikasi ALat	: 
+	Spesifikasi ALat : 
 
 		1. Komputer = Prosesor : intel core 2 duo, RAM : 1 Gb
 
@@ -26,7 +25,7 @@
 		4. Browser = Minimal Mozilla 15.0 atau Google Chrome 20.0 atau browser lain yang
 		   sudah mendukung HTML5
 
-	Deskripsi		      :
+	Deskripsi :
 	
 	VirtualWeb merupakan sebuah e-learning yang digunakan dalam pembelajaran web di 
 	sekolah-sekolah. Virtual web telah didesain menggunakan teknologi terbaru yaitu
@@ -40,10 +39,10 @@
 	dapat lebih sempurna lagi. Karena dibuat dengan kode-kode syntax yang mudah dimengerti
 	saya berharap para pengembang tidak akan kesusahan dalam mengutak-atik source codenya.
 
-  Uji Coba          :
+  	Uji Coba :
 
-      Untuk admin Username = admin, Password = admin
-      Untuk user testing Username = JenuarDalapang, Password = jenuar88
+      	Untuk admin Username = admin, Password = admin
+      	Untuk user testing Username = JenuarDalapang, Password = jenuar88
 
 	Terima Kasih		  :
 
