@@ -1,4 +1,3 @@
-
      ____   ____.__         __               .__  __      __      ___.    
      \   \ /   /|__|_______/  |_ __ _______  |  |/  \    /  \ ____\_ |__  
       \   Y   / |  \_  __ \   __\  |  \__  \ |  |\   \/\/   // __ \| __ \ 
@@ -23,8 +22,14 @@
 
 		3. Server = XAMPP atau WAMP
 
-		4. Browser = Minimal Mozilla 15.0 atau Google Chrome 20.0 atau browser lain yang
-		   sudah mendukung HTML5
+		4. Browser = Minimal Mozilla 15.0 atau Google Chrome 20.0 atau browser 
+		   lain yang sudah mendukung HTML5
+
+	Uji Coba		:
+	
+		Administrator	: Username = admin, Password = admin
+
+		Testing User	: Username = JenuarDalapang, Password = jenuar88
 
 	Deskripsi		:
 	
