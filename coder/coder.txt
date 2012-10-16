@@ -1,0 +1,6 @@
+
+.body{
+	background: #fff url('background.png');
+	font-family: georgia, sans-serif;
+	font-size: 12px;
+}

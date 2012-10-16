@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+
+Options +FollowSymLinks
+
+RewriteEngine on
+RewriteRule ^selamatdatang$ login.php [L]
+RewriteRule ^virtualweb$ media.php [L]
+RewriteRule ^keluar$ logout.php [L]
+RewriteRule ^album-([0-9]+)-(.*)\.html$ home.php?module=detailfoto&id=$1 [L]
+RewriteRule ^aplikasifoto-([0-9]+)-(.*)\.html$ home.php?module=aplikasifoto&id=$1 [L]
+RewriteRule ^halgaleri-([0-9]+)-(.*)\.html$ home.php?module=detailfoto&id=$1&halgaleri=$2 [L]
+RewriteRule ^haldeary-(.*)\.html$ home.php?module=deary&haldeary=$1 [L]
+RewriteRule ^halaktivitasdeary-(.*)\.html$ home.php?module=aktivitasdeary&halaktivitasdeary=$1 [L]
+RewriteRule ^aktivitasalbum-([0-9]+)-(.*)\.html$ home.php?module=aktivitasfoto&act=lihataktivitasfoto&id=$1 [L]
+RewriteRule ^berita-(.*)-(.*)\.html$ berita.php?act=detailberita&id=$1 [L]
+RewriteRule ^halberita-(.*)\.html$ berita.php?halberita=$1 [L]
+RewriteRule ^([a-z@_0-9_-]+)$ home.php?module=teman&act=lihatteman&id=$1 [L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+# Replace html with your file extension, eg: php, htm, asp
+
+# protect koneksi.php
+<files koneksi.php>
+order allow,deny
+deny from all
+</files>
+
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
+
+Options All -Indexes
+</IfModule>
