@@ -1,0 +1,113 @@
+#popup_container {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: solid 8px #4d4d4d;
+	color: #4d4d4d;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+    	box-shadow: 0 5px 8px rgba(0, 0, 0, .5);
+    	box-shadow: 0 5px 9px rgba(0,0,0,.25);
+}
+#popup_container input {
+  	position: relative;
+  	display: inline-block;
+  	overflow: visible;
+  	margin: 0;
+  	padding: 6px 10px;
+  	cursor: pointer;
+  	outline: none;
+  	border: 1px solid #C6322A;
+  	-webkit-border-radius: 2px;
+  	-moz-border-radius: 2px;
+  	border-radius: 2px;
+  	background-color: #d84a38;
+  	background-image: -moz-linear-gradient(top, #dd4b39, #d14836);
+  	background-image: -ms-linear-gradient(top, #dd4b39, #d14836);
+  	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dd4b39), to(#d14836));
+  	background-image: -webkit-linear-gradient(top, #dd4b39, #d14836);
+  	background-image: -o-linear-gradient(top, #dd4b39, #d14836);
+  	background-image: linear-gradient(top, #dd4b39, #d14836);
+  	background-repeat: repeat-x;
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dd4b39', endColorstr='#d14836', GradientType=0);
+  	-webkit-background-clip: padding;
+  	-moz-background-clip: padding;
+  	background-clip: padding;
+  	/* IE hacks */
+
+  	zoom: 1;
+  	z-index: 1;
+  	*display: inline;
+  	font: bold 12px Helvetica, Arial, sans-serif;
+  	line-height: 12px;
+  	color: white;
+  	min-width: 42px;
+  	width: auto;
+  	text-align: center;
+  	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  	text-decoration: none;
+  	white-space: nowrap;
+}
+#popup_container input:hover {
+  	border: 1px solid #AF301F;
+  	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  	background-color: #d34332;
+  	background-image: -moz-linear-gradient(top, #dd4b39, #c53727);
+  	background-image: -ms-linear-gradient(top, #dd4b39, #c53727);
+  	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dd4b39), to(#c53727));
+  	background-image: -webkit-linear-gradient(top, #dd4b39, #c53727);
+  	background-image: -o-linear-gradient(top, #dd4b39, #c53727);
+  	background-image: linear-gradient(top, #dd4b39, #c53727);
+  	background-repeat: repeat-x;
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dd4b39', endColorstr='#c53727', GradientType=0);
+  	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+      	color: #4d4d4d;
+	background: #CCC url(../images/sprite.png) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+#popup_content {
+	background: 16px 16px no-repeat url(../images/info.png);
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+#popup_content.success {
+    color: #4d4d4d;
+    background-color: #e8e8e8;    
+	background-image: url(../images/success.png);
+}
+#popup_content.confirm {
+    color: #4d4d4d;
+    background-color: #e8e8e8;    
+	background-image: url(../images/important.png);
+}
+
+#popup_content.warning {
+    color: #4d4d4d;
+    background-color: #e8e8e8;    
+	background-image: url(../images/warning.png);
+}
+#popup_message {
+	padding-left: 48px;
+}
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+#popup_prompt {
+	margin: .5em 0em;
+}
